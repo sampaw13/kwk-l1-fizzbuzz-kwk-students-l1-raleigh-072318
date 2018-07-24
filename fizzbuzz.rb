@@ -1,17 +1,20 @@
-def fizzbuzz(number)
+def FizzBuzz(number)
   if number % 3 == 0  && number % 5 == 0 
-return "fizzbuzz"
+return "FizzBuzz"
 
 elsif number % 3 == 0 
-  return "fizz"
+  return "Fizz"
 
 elsif number % 5 == 0 
-  return "buzz"
+  return "Buzz"
 # elsif number % 15 == 0 
-#     return "fizzbuzz"
+#     return "FizzBuzz"
 
+else
+  return nil 
+  
  end
 end
 
-puts fizzbuzz(15)
-puts fizzbuzz(3)
+puts FizzBuzz(15)
+puts FizzBuzz(3)
