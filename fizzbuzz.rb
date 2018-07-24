@@ -16,5 +16,5 @@ else
  end
 end
 
-puts FizzBuzz(15)
+puts FizzBuzz(14)
 puts FizzBuzz(3)
