@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-  if number % 3 ==0  && if number % 5== 0 
+  if number % 3 == 0  && if number % 5== 0 
 return "fizzbuzz"
 
 elsif number % 3 ==0 
@@ -10,5 +10,7 @@ elsif number % 5 == 0
 
 else return nil
 end
-  
 end
+
+puts fizzbuzz(15)
+puts fizzbuzz(3)
